@@ -1,9 +1,9 @@
 package ru.samitin.cleantest.postexample.entities
 
 data class User(
-    private val name : String,
-    private val username : String,
-    private val email : String,
-    private val phone : String,
-    private val city : String
+    val name : String,
+    val username : String,
+    val email : String,
+    val phone : String,
+    val city : String
 )
